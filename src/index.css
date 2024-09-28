@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background {
+  background: url("./assets/hexagon-grid.svg");
+  background-color: #f7f9ff;
+  background-size: cover;
+  animation: bgAnima 30s linear infinite;
+}
+
+@keyframes bgAnima {
+  0% {
+    background-size: 100%;
+  }
+  50% {
+    background-size: 120%;
+  }
+  100% {
+    background-size: 100%;
+  }
+}
