@@ -1,22 +1,18 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: wireframe --default, black --prefersdark;
+}
 
 .background {
-  background: url("./assets/hexagon-grid.svg");
-  background-color: #f7f9ff;
-  background-size: cover;
+  background-repeat: repeat;
   animation: bgAnima 30s linear infinite;
 }
 
 @keyframes bgAnima {
   0% {
-    background-size: 100%;
-  }
-  50% {
-    background-size: 120%;
+    background-position: 0 0;
   }
   100% {
-    background-size: 100%;
+    background-position: -100% 0;
   }
 }

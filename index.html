@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/favicon.png" />
@@ -7,41 +7,58 @@
     <title>Lightning-Fast Pixeldrain Downloads — SpeedDrain</title>
     <meta
       name="description"
-      content="Bypass Pixeldrain download speed limits with SpeedDrain. Enjoy faster, hassle-free downloads in just a few clicks!"
-    />
+      content="Bypass Pixeldrain download speed limits with SpeedDrain. Enjoy faster, hassle-free downloads in just a few clicks!" />
     <meta
       name="keywords"
-      content="Pixeldrain speed bypass, speed bypass, pixeldrain, fast download pixeldrain, SpeedDrain"
-    />
+      content="Pixeldrain speed bypass, speed bypass, pixeldrain, fast download pixeldrain, SpeedDrain, pixeldrain download bypass, pixeldrain speed limit, fast downloads, pixeldrain limit bypass, download faster pixeldrain, speed limit bypass, pixeldrain download limit, pixeldrain limit bypass" />
     <meta name="author" content="MahaTab H. Sudip" />
     <meta name="robots" content="index,follow" />
     <meta name="coverage" content="Worldwide" />
 
+    <!-- Open Graph / Facebook -->
+    <meta
+      property="og:title"
+      content="SpeedDrain - Lightning-Fast Pixeldrain Downloads" />
+    <meta
+      property="og:description"
+      content="Enjoy unlimited high-speed downloads on Pixeldrain with SpeedDrain. Bypass restrictions effortlessly!" />
+    <meta property="og:image" content="./public/readme.png" />
+    <meta property="og:url" content="https://speeddrain.vercel.app/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="SpeedDrain - Bypass Pixeldrain Speed Limits" />
+    <meta
+      name="twitter:description"
+      content="Speed up your Pixeldrain downloads instantly with SpeedDrain!" />
+    <meta name="twitter:image" content="./public/readme.png" />
+
     <!-- Google Search Console -->
     <meta
       name="google-site-verification"
-      content="_ltzQt1-0B2GHpyh6iY8HdNI9-acTATsfOazHfLXMEY"
-    />
+      content="_ltzQt1-0B2GHpyh6iY8HdNI9-acTATsfOazHfLXMEY" />
 
     <!-- Structured Data Example -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "SpeedDrain",
+        "@type": "WebPage",
+        "name": "SpeedDrain: Bypass Pixeldrain Download Limits",
         "url": "https://speeddrain.vercel.app",
-        "description": "Bypass Pixeldrain download speed limits with SpeedDrain."
+        "description": "Bypass Pixeldrain download speed limits with SpeedDrain. Enjoy faster downloads in just a few clicks.",
+        "keywords": "Pixeldrain speed bypass, speed bypass, pixeldrain, fast download pixeldrain, SpeedDrain, pixeldrain download bypass, pixeldrain speed limit, fast downloads, pixeldrain limit bypass, download faster pixeldrain, speed limit bypass, pixeldrain download limit, pixeldrain limit bypass",
+        "author": {
+          "@type": "Person",
+          "name": "MahaTab H. Sudip"
+        }
       }
     </script>
   </head>
   <body class="background">
-    <main id="root"></main>
-    <script>
-      window.addEventListener("error", function (event) {
-        // Redirect to custom 404 page
-        window.location.href = "/index.html";
-      });
-    </script>
+    <div id="root" class="relative overflow-hidden h-screen"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
