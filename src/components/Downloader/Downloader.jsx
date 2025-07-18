@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { MdContentPaste, MdDownload } from "react-icons/md";
 
 const Downloader = () => {
-  const bypassURL = "https://pd.cybar.xyz";
+  const bypassURL = "https://sparkling-band-3aad.maxwartg.workers.dev";
   const [downloadLink, setDownloadLink] = useState("");
   const [url, setUrl] = useState("");
 
